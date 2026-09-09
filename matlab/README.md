@@ -32,7 +32,7 @@ Investigates the stability of the tumour–immune system and the coexistence beh
 Explores Hopf bifurcation behaviour and the emergence of limit-cycle dynamics in the mathematical model.
 
 ### 6. Stability and Bifurcation Analysis
-**File:** `stability_bifurcation_analysis.m`
+**File:** `bifurcation_eigenvalue_analysis.m`
 
 Analyses equilibrium behaviour, Jacobian eigenvalues, stability and bifurcation patterns of the model.
 

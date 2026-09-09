@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains my undergraduate research project titled:
+This repository contains my undergraduate research project:
 
 **Mathematical Modeling and Analysis of Breast Cancer–Immune Dynamics with Chemotherapy Treatment**
 
@@ -12,39 +12,83 @@ The study uses mathematical modelling and numerical simulations to investigate t
 
 ## Research Focus
 
-The model considers the interaction between tumour cells, immune cells and chemotherapy. The study investigates how tumour growth, immune response and treatment strategies influence disease dynamics.
+The mathematical model describes interactions between tumour cells, immune cells and chemotherapy drug concentration.
 
-The research also explores the importance of early detection and different chemotherapy strategies through numerical simulations.
+The study investigates:
 
-## Objectives
+- Tumour growth and immune-cell responses
+- Early versus late detection
+- Different chemotherapy treatment strategies
+- Tumour persistence and tumour-free dynamics
+- Stability and coexistence of tumour and immune populations
+- Bifurcation and limit-cycle behaviour
+- Tumour threshold dynamics
 
-- Develop a mathematical model of breast cancer and immune dynamics.
-- Analyse the behaviour of the model.
-- Investigate the effects of chemotherapy treatment.
-- Examine the effects of early and late detection.
-- Use numerical simulations to explore different treatment scenarios.
+## Research Objectives
+
+The main objectives of the study were to:
+
+1. Develop a mathematical model of breast cancer and immune dynamics.
+2. Analyse the behaviour and stability of the model.
+3. Investigate the effects of chemotherapy treatment.
+4. Examine the effects of early and late detection.
+5. Explore different treatment strategies through numerical simulations.
+6. Investigate conditions associated with tumour persistence and tumour-free outcomes.
+
+## Model Components
+
+The model considers interactions between:
+
+- Tumour cells
+- Cytotoxic T lymphocytes (CTLs)
+- Natural killer (NK) cells
+- Gamma-delta T cells
+- Chemotherapy drug concentration
 
 ## Computational Methods
 
-The research was implemented in MATLAB using numerical methods for solving systems of ordinary differential equations.
+The computational analysis was implemented in MATLAB.
 
-The computational work includes:
+Methods used include:
 
-- Numerical simulations using `ode45`
-- Early versus late detection simulations
-- Constant versus adaptive chemotherapy
+- Numerical solution of systems of ordinary differential equations
+- `ode45` numerical integration
 - Parameter variation
-- Tumour and immune-cell dynamics
-- Phase-plane analysis
 - Equilibrium analysis
+- Jacobian and eigenvalue analysis
+- Stability analysis
+- Bifurcation analysis
+- Phase-plane analysis
+- Chemotherapy treatment simulations
+- Tumour threshold and basin-of-attraction analysis
+
+## MATLAB Simulations
+
+The `matlab/` folder contains the MATLAB scripts used for the computational analysis.
+
+The simulations include:
+
+- Early versus late detection
+- Constant versus adaptive chemotherapy
+- Continuous versus pulsed chemotherapy
+- Stability and coexistence
+- Hopf bifurcation and limit cycles
+- Stability and bifurcation analysis
+- Tumour persistence versus tumour-free dynamics
+- Coexistence and phase-plane analysis
+- Tumour threshold dynamics
+
+See the [`matlab/README.md`](matlab/README.md) file for descriptions of the individual scripts.
 
 ## Repository Contents
 
-The repository contains the research dissertation, MATLAB code and selected results from the computational analysis.
-
-## Author
-
-**Tariro Kazingizi**
-
-Bachelor of Science Honours Degree in Mathematics and Computational Sciences  
-University of Zimbabwe
+```text
+breast-cancer-immune-dynamics/
+│
+├── README.md
+│
+├── Breast_cancer_research (1).pdf
+│
+└── matlab/
+    ├── README.md
+    └── MATLAB simulation scripts
